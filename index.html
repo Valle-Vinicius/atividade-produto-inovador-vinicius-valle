@@ -1,32 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clube de Leitura do SENAI</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
     <header>
         <h1>Aegis</h1>
-        <h4>Elegância que protege.</h4>
-    <nav>
-        <ul>
-            <li><a href="#">O que é?</a></li>
-            <li><a href="#">Especificações</a></li>
-            <li><a href="#">Galeria</a></li>
-            <li><a href="#">Comprar</a></li>
-    </ul>
-  </nav>
-</header>
+        <h4>Elegância em Primeiro Lugar</h4>
+        <nav>
+            <ul>
+                <li><a href="#hero">O que é?</a></li>
+                <li><a href="#especificacoes">Especificações</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#comprar">Comprar</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<main>
-    <section id="hero">
-        <h2>Discreto por apenas um simples design.</h2>
-        <p>Este anel ajuda nos a monitorar seus sinais, como frequência, temperatura e oxigenação, alertando sobre desvios que podem indicar o início de problemas de saúde.</p>
-        <img src="/src/img/produto-hero.jpg">
-    </section>
-</main>
+    <main>
+        <section id="hero">
+            <h2>Discreto por apenas um simples design.</h2>
+            <p>Discreto por design, este anel monitora passivamente seus sinais vitais essenciais — como frequência cardíaca, temperatura e oxigenação — 24 horas por dia, alertando sobre desvios sutis que podem indicar o início de problemas de saúde.</p>
+            <p>Mais do que um monitor de bem-estar, ele é um guardião pessoal. Com um gesto discreto ou através da detecção automática de picos de estresse e biomarcadores de coação, o anel pode enviar instantaneamente um alerta de emergência para seus contatos de confiança ou autoridades, compartilhando sua localização em tempo real.</p>
+            <p>É a fusão perfeita entre estilo e proteção, projetado para quem valoriza a tranquilidade sem abrir mão da elegância.</p>
+            <img src="src/img/produtohero.png">
+        </section>
 
+        <section id="especificacoes">
+            <h2>Especificações do anel "Aegis"</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>Detalhe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Design</td>
+                        <td>Varia de designs simples e minimalistas</td>
+                    </tr>
+                    <tr>
+                        <td>Conectividade</td>
+                        <td>Quaisquer aparelhos eletrônicos</td>
+                    </tr>
+                    <tr>
+                        <td>Imagem</td>
+                        <td><img src="src/img/produto-spec.jpg" alt="Imagem de detalhe técnico do produto"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de Imagens</h2>
+            <img src="src/img/galeria-01.jpg" alt="Produto visto de frente">
+            <img src="src/img/galeria-02.jpg" alt="Produto visto de lado">
+            <img src="src/img/galeria-03.jpg" alt="Produto visto frontalmente">
+            <img src="src/img/galeria-04.jpg" alt="Produto visto em uma mão">
+            <img src="src/img/galeria-05.jpg" alt="Produto visto em um carregador">
+            <img src="src/img/galeria-05.jpg" alt="Produto visto em integração com um celular">
+        </section>
+
+        <section id="comprar">
+            <h2>Garanta o Seu!</h2>
+            <form>
+                <label for="email_contato">Seu E-mail</label>
+                <input type="email" id="email_contato" required>
+                <button type="submit" class="botao-comprar"><strong>Comprar Agora</strong></button>
+            </form>
+        </section>
+        <aside>
+            <h2>Pontos de Referência</h2>
+            <ul>
+                <li><a href="#hero"><strong>Voltar ao Ínicio</strong></a></li>
+                <li><a href="#especificacoes"><strong>Especificações</strong></a></li>
+                <li><a href="#galeria"><strong>Galeria</strong></a></li>
+            </ul>
+        </aside>
+        <footer>
+            <p>© 2025 Aegis e Vinícius Valle Rodrigues. Todos os direitos serão reservados.</p>
+        </footer>
+    </main>
+</body>
+</html>
